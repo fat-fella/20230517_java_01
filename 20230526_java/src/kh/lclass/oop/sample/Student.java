@@ -28,7 +28,7 @@ public class Student extends Person{
 	}
 	@Override
 	public String getName() {
-		return super.name;  //본명
+		return name;  //본명
 		
 	}
 	@Override 

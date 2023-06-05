@@ -15,7 +15,6 @@ public class Testpolymorphism {
 		
 		
 		
-		
 		Driver ej = new Driver();
 		ej.setMoney(10000);
 		ej.buy(new Sonata());
