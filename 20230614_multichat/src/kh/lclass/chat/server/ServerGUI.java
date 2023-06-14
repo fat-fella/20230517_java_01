@@ -40,13 +40,15 @@ public class ServerGUI extends JFrame implements ActionListener{
 	//TODO 새 메시지 받았을 때 호출됨.
 	public void appendMsg(String msg) {
 		jta.append(msg);
+		jta.append("\n");
 	}
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// 입력창에 글 입력하고 enter 눌렀을 때
 		String msg = jtf.getText();
-		System.out.println(msg);
+		appendMsg(msg);
+		sb.sendMessage(msg);
 		jtf.setText(""); //입력창 입력된 글을 초기화
 		//TODO client에 전달하기 위해 background에 전달
 	}

@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -31,6 +32,8 @@ public class ServerBackground {
 
 	// 서버생성 및 설정
 	public void setting() {
+		//참고: 동시접속자로 map에 정보가 동기화되어 들어가도록 설정함.
+		Collections.synchronizedMap(mapClients);
 		try {
 			ss = new ServerSocket(7777);
 			// 방문자 접속을 계속 받아들임. 무한반복.
@@ -39,7 +42,6 @@ public class ServerBackground {
 				socket = ss.accept();
 
 				new Client(socket).start();
-				;
 
 			}
 		} catch (IOException e) {
@@ -57,12 +59,18 @@ public class ServerBackground {
 		this.gui = gui;
 	}
 
+
+	
+	
+	
+	
+	
 	public void sendMessage(String msg) {
 		// clients 모두에게 msg 전달
 		Set<String> keys = mapClients.keySet();
 		for (String key : keys) {
-			try {
 			BufferedWriter wr = mapClients.get(key);
+			try {
 				wr.write(msg+"\n");
 				wr.flush();
 			} catch (IOException e) {
@@ -103,6 +111,7 @@ public class ServerBackground {
 				try {
 					String msg = br.readLine();
 					gui.appendMsg(msg);
+					sendMessage(msg);
 					//클라이언트 맵 모두에게 접속 정보 전달
 				} catch (IOException e) {
 					e.printStackTrace();
