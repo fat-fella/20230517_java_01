@@ -55,7 +55,7 @@ public class ClientBackground {
 		try {
 			bw.write(nickname + ":" + msg + "\n");
 			bw.flush();
-			gui.appendMsg(msg);
+			//gui.appendMsg(msg);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

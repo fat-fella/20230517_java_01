@@ -115,6 +115,7 @@ public class ServerBackground {
 					//클라이언트 맵 모두에게 접속 정보 전달
 				} catch (IOException e) {
 					e.printStackTrace();
+					
 				}
 			}
 		}

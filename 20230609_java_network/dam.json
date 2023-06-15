@@ -1,0 +1,107 @@
+{
+	"response": {
+		"header": {
+			"resultCode": "00",
+			"resultMsg": "NORMAL SERVICE."
+		},
+		"body": {
+			"items": {
+				"item": [
+					{
+						"inflowqy": 349.434,
+						"lowlevel": 0.92,
+						"obsrdtmnt": "01-01 00시 10분",
+						"rf": "0.000",
+						"rsvwtqy": 304.694,
+						"rsvwtrt": 99.2,
+						"totdcwtrqy": 92.137
+					},
+					{
+						"inflowqy": 351.214,
+						"lowlevel": 0.93,
+						"obsrdtmnt": "01-01 00시 20분",
+						"rf": "0.000",
+						"rsvwtqy": 305.159,
+						"rsvwtrt": 99.3,
+						"totdcwtrqy": 94.398
+					},
+					{
+						"inflowqy": 102.162,
+						"lowlevel": 0.92,
+						"obsrdtmnt": "01-01 00시 30분",
+						"rf": "0.000",
+						"rsvwtqy": 304.694,
+						"rsvwtrt": 99.2,
+						"totdcwtrqy": 119.951
+					},
+					{
+						"inflowqy": "392.160",
+						"lowlevel": 0.93,
+						"obsrdtmnt": "01-01 00시 40분",
+						"rf": "0.000",
+						"rsvwtqy": 305.159,
+						"rsvwtrt": 99.3,
+						"totdcwtrqy": "186.130"
+					},
+					{
+						"inflowqy": "0.000",
+						"lowlevel": 0.92,
+						"obsrdtmnt": "01-01 00시 50분",
+						"rf": "0.000",
+						"rsvwtqy": 304.694,
+						"rsvwtrt": 99.2,
+						"totdcwtrqy": 189.602
+					},
+					{
+						"inflowqy": 189.176,
+						"lowlevel": 0.92,
+						"obsrdtmnt": "01-01 01시 00분",
+						"rf": "0.000",
+						"rsvwtqy": 304.694,
+						"rsvwtrt": 99.2,
+						"totdcwtrqy": 191.798
+					},
+					{
+						"inflowqy": 192.513,
+						"lowlevel": 0.93,
+						"obsrdtmnt": "01-01 01시 10분",
+						"rf": "0.000",
+						"rsvwtqy": 305.159,
+						"rsvwtrt": 99.3,
+						"totdcwtrqy": 196.141
+					},
+					{
+						"inflowqy": 195.543,
+						"lowlevel": 0.92,
+						"obsrdtmnt": "01-01 01시 20분",
+						"rf": "0.000",
+						"rsvwtqy": 304.694,
+						"rsvwtrt": 99.2,
+						"totdcwtrqy": "198.690"
+					},
+					{
+						"inflowqy": 199.093,
+						"lowlevel": 0.92,
+						"obsrdtmnt": "01-01 01시 30분",
+						"rf": "0.000",
+						"rsvwtqy": 304.694,
+						"rsvwtrt": 99.2,
+						"totdcwtrqy": 202.447
+					},
+					{
+						"inflowqy": 201.625,
+						"lowlevel": 0.93,
+						"obsrdtmnt": "01-01 01시 40분",
+						"rf": "0.000",
+						"rsvwtqy": 305.159,
+						"rsvwtrt": 99.3,
+						"totdcwtrqy": 203.739
+					}
+				]
+			},
+			"numOfRows": 10,
+			"pageNo": 1,
+			"totalCount": 52704
+		}
+	}
+}

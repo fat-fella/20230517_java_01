@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<response>
+	<header>
+		<resultCode>00</resultCode>
+		<resultMsg>NORMAL SERVICE.</resultMsg>
+	</header>
+	<body>
+		<items>
+			<item>
+				<inflowqy>349.434</inflowqy>
+				<lowlevel>0.92</lowlevel>
+				<obsrdtmnt>01-01 00시 10분</obsrdtmnt>
+				<rf>0.000</rf>
+				<rsvwtqy>304.694</rsvwtqy>
+				<rsvwtrt>99.2</rsvwtrt>
+				<totdcwtrqy>92.137</totdcwtrqy>
+			</item>
+			<item>
+				<inflowqy>351.214</inflowqy>
+				<lowlevel>0.93</lowlevel>
+				<obsrdtmnt>01-01 00시 20분</obsrdtmnt>
+				<rf>0.000</rf>
+				<rsvwtqy>305.159</rsvwtqy>
+				<rsvwtrt>99.3</rsvwtrt>
+				<totdcwtrqy>94.398</totdcwtrqy>
+			</item>
+			<item>
+				<inflowqy>102.162</inflowqy>
+				<lowlevel>0.92</lowlevel>
+				<obsrdtmnt>01-01 00시 30분</obsrdtmnt>
+				<rf>0.000</rf>
+				<rsvwtqy>304.694</rsvwtqy>
+				<rsvwtrt>99.2</rsvwtrt>
+				<totdcwtrqy>119.951</totdcwtrqy>
+			</item>
+			<item>
+				<inflowqy>392.160</inflowqy>
+				<lowlevel>0.93</lowlevel>
+				<obsrdtmnt>01-01 00시 40분</obsrdtmnt>
+				<rf>0.000</rf>
+				<rsvwtqy>305.159</rsvwtqy>
+				<rsvwtrt>99.3</rsvwtrt>
+				<totdcwtrqy>186.130</totdcwtrqy>
+			</item>
+			<item>
+				<inflowqy>0.000</inflowqy>
+				<lowlevel>0.92</lowlevel>
+				<obsrdtmnt>01-01 00시 50분</obsrdtmnt>
+				<rf>0.000</rf>
+				<rsvwtqy>304.694</rsvwtqy>
+				<rsvwtrt>99.2</rsvwtrt>
+				<totdcwtrqy>189.602</totdcwtrqy>
+			</item>
+			<item>
+				<inflowqy>189.176</inflowqy>
+				<lowlevel>0.92</lowlevel>
+				<obsrdtmnt>01-01 01시 00분</obsrdtmnt>
+				<rf>0.000</rf>
+				<rsvwtqy>304.694</rsvwtqy>
+				<rsvwtrt>99.2</rsvwtrt>
+				<totdcwtrqy>191.798</totdcwtrqy>
+			</item>
+			<item>
+				<inflowqy>192.513</inflowqy>
+				<lowlevel>0.93</lowlevel>
+				<obsrdtmnt>01-01 01시 10분</obsrdtmnt>
+				<rf>0.000</rf>
+				<rsvwtqy>305.159</rsvwtqy>
+				<rsvwtrt>99.3</rsvwtrt>
+				<totdcwtrqy>196.141</totdcwtrqy>
+			</item>
+			<item>
+				<inflowqy>195.543</inflowqy>
+				<lowlevel>0.92</lowlevel>
+				<obsrdtmnt>01-01 01시 20분</obsrdtmnt>
+				<rf>0.000</rf>
+				<rsvwtqy>304.694</rsvwtqy>
+				<rsvwtrt>99.2</rsvwtrt>
+				<totdcwtrqy>198.690</totdcwtrqy>
+			</item>
+			<item>
+				<inflowqy>199.093</inflowqy>
+				<lowlevel>0.92</lowlevel>
+				<obsrdtmnt>01-01 01시 30분</obsrdtmnt>
+				<rf>0.000</rf>
+				<rsvwtqy>304.694</rsvwtqy>
+				<rsvwtrt>99.2</rsvwtrt>
+				<totdcwtrqy>202.447</totdcwtrqy>
+			</item>
+			<item>
+				<inflowqy>201.625</inflowqy>
+				<lowlevel>0.93</lowlevel>
+				<obsrdtmnt>01-01 01시 40분</obsrdtmnt>
+				<rf>0.000</rf>
+				<rsvwtqy>305.159</rsvwtqy>
+				<rsvwtrt>99.3</rsvwtrt>
+				<totdcwtrqy>203.739</totdcwtrqy>
+			</item>
+		</items>
+		<numOfRows>10</numOfRows>
+		<pageNo>1</pageNo>
+		<totalCount>52704</totalCount>
+	</body>
+</response>
